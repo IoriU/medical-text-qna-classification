@@ -1,1 +1,11 @@
-# medical-text-qna-classification
+#  Classification of Doctor Specialization Domain in Health Question and Answer Forum Text Data
+
+This undergraduate thesis delves into the domain of multi-label text classification within the context of medical question and answer forums. The focal objective is to develop an advanced system capable of swiftly identifying the most suitable specialist doctor for a given patient's inquiry. By automating the redirection of queries to the appropriate medical expert, the system aims to significantly expedite response times within the forum, thereby enhancing the overall patient experience.
+
+The study explores two distinct methodologies to achieve this objective. The first approach centers on employing conventional machine learning algorithms, including but not limited to XGBoost, Support Vector Classification (SVC), and Logistic Regression. These well-established techniques are harnessed to effectively categorize medical queries and determine the optimal specialist doctor for each case.
+
+The second approach leverages deep learning techniques, particularly focusing on the transformative power of BERT (Bidirectional Encoder Representations from Transformers) and its variants, such as GAN-BERT and domain adaptive pre-training. These cutting-edge methodologies offer the potential to capture intricate semantic nuances present within medical texts, thereby enabling more accurate and nuanced specialist doctor recommendations.
+
+Additionally, the study incorporates the use of SHAP (SHapley Additive exPlanations), a state-of-the-art technique, to analyze the impact of individual features within the classification models derived from the conventional machine learning algorithms. This analysis sheds light on the relative significance of different features in contributing to the final classification decisions.
+
+In summary, this thesis addresses the critical need for improved efficiency and accuracy in medical question and answer forums. By seamlessly integrating multi-label text classification techniques, encompassing both conventional machine learning and deep learning strategies, and augmenting these with feature importance insights from SHAP, the developed system has the potential to revolutionize the way patients access medical expertise in online forums. This research holds implications not only for medical informatics but also for the broader field of natural language processing and AI-driven healthcare solutions.
